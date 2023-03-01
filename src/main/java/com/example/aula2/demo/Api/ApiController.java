@@ -19,6 +19,11 @@ public class ApiController {
 
             int resultado = 1+1;
         return resultado;
+    } @GetMapping("/resultado")
+    public int  dd() {
+
+            int resultado = 1+1;
+        return resultado;
     }
 
 }
